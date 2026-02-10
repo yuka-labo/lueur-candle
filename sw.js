@@ -4,18 +4,19 @@
 
 const CACHE_NAME = 'lueur-v1';
 const ASSETS_TO_CACHE = [
-    '/',
-    '/index.html',
-    '/style.css',
-    '/app.js',
-    '/messages.js',
-    '/manifest.json',
-    '/icons/icon-192.png',
-    '/icons/icon-512.png',
-    '/images/bg-morning.webp',
-    '/images/bg-afternoon.webp',
-    '/images/bg-evening.webp',
-    '/images/bg-latenight.webp'
+    './',
+    './index.html',
+    './style.css',
+    './app.js',
+    './messages.js',
+    './icons/apple-touch-icon.png',
+    './icons/icon-192.png',
+    './icons/icon-512.png',
+    './manifest.json',
+    './images/bg-morning.webp',
+    './images/bg-afternoon.webp',
+    './images/bg-evening.webp',
+    './images/bg-latenight.webp'
 ];
 
 // Install

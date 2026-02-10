@@ -2,7 +2,7 @@
   "name": "Lueur",
   "short_name": "Lueur",
   "description": "世界の愛の詩を灯すキャンドルアプリ",
-  "start_url": "/",
+  "start_url": "./index.html",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#0a0a12",
