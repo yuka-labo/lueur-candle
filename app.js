@@ -170,6 +170,7 @@ function showMessage() {
     setTimeout(() => {
         // 詩のテキスト更新
         messageText.textContent = data.text;
+        recordPoemView(data.text, data.author);
 
         // 作者名を表示
         if (data.author) {
@@ -206,6 +207,9 @@ function init() {
 
     // 1時間ごとに背景を更新
     setInterval(setBackground, 60 * 60 * 1000);
+
+    // コレクション機能初期化
+    initCollection();
 }
 
 // DOMContentLoaded

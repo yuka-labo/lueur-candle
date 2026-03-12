@@ -2,13 +2,14 @@
  * Lueur — Service Worker
  */
 
-const CACHE_NAME = 'lueur-v1';
+const CACHE_NAME = 'lueur-v2';
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
     './style.css',
     './app.js',
     './messages.js',
+    './collection.js',
     './icons/apple-touch-icon.png',
     './icons/icon-192.png',
     './icons/icon-512.png',
